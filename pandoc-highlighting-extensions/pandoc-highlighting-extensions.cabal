@@ -32,8 +32,13 @@ library
 
     exposed-modules:
         Text.Pandoc.Highlighting.Extensions
+      , Text.Pandoc.Highlighting.Extensions.WriterOptions
 
     build-depends:
         base >=4.10 && <5
-      , pandoc-types
+      , data-default-class
+      , pandoc
+      , skylighting-core
       , skylighting-extensions
+      , skylighting-modding
+      , text
