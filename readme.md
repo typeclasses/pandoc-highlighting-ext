@@ -10,8 +10,9 @@ Packages in this repository:
   to `skylighting-modding` and `skylighting-extensions`, making it easy to
   customize Pandoc's display of your documents.
 
-  [skylighting]:             https://hackage.haskell.org/package/skylighting
-  [skylighting-core]:        https://hackage.haskell.org/package/skylighting-core
-  [skylighting-modding]:     https://hackage.haskell.org/package/skylighting-modding
-  [pandoc]:                  https://hackage.haskell.org/package/pandoc
-  [pandoc-highlighting-ext]: https://hackage.haskell.org/package/pandoc-highlighting-ext
+  [skylighting]:                    https://hackage.haskell.org/package/skylighting
+  [skylighting-core]:               https://hackage.haskell.org/package/skylighting-core
+  [skylighting-extensions]:         https://hackage.haskell.org/package/skylighting-extensions
+  [skylighting-modding]:            https://hackage.haskell.org/package/skylighting-modding
+  [pandoc]:                         https://hackage.haskell.org/package/pandoc
+  [pandoc-highlighting-extensions]: https://hackage.haskell.org/package/pandoc-highlighting-extensions
