@@ -103,7 +103,7 @@ script:
   - (cd "pandoc-highlighting-extensions" && cabal sdist)
   - (cd "skylighting-extensions" && cabal sdist)
   - (cd "skylighting-modding" && cabal sdist)
-  - mv "pandoc-highlighting-extensions"/dist/pandoc-highlighting-extensions-*.tar.gz "skylighting-extensions"/dist/skylighting-extensions-*.tar.gz "skylighting-modding"/dist/skylighting-modding-*.tar.gz ${DISTDIR}/
+  - mv dist-newstyle/sdist/*.tar.gz ${DISTDIR}/
   - cd ${DISTDIR} || false
   - find . -maxdepth 1 -name '*.tar.gz' -exec tar -xvf '{}' \;
   - "printf 'packages: pandoc-highlighting-extensions-*/*.cabal skylighting-extensions-*/*.cabal skylighting-modding-*/*.cabal\\n' > cabal.project"
