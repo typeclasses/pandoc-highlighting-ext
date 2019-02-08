@@ -3,11 +3,12 @@ cabal-version: 2.0
 name: skylighting-modding
 version: 1.0.0.0
 
-synopsis: ...
+synopsis: Utilities for modifying Skylighting syntaxes
 category: Text
 
 description:
-    ...
+    Functions for making alterations to @skylighting-core@ values ('SyntaxMap',
+    'Syntax', 'Context', 'Rule', etc.).
 
 homepage:    https://github.com/typeclasses/pandoc-highlighting-ext
 bug-reports: https://github.com/typeclasses/pandoc-highlighting-ext/issues
@@ -34,4 +35,6 @@ library
 
     build-depends:
         base >=4.10 && <5
+      , containers
       , skylighting-core
+      , text

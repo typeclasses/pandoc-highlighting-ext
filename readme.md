@@ -7,8 +7,8 @@ Packages in this repository:
   miscellaneous assortment of customized Skylighting syntax highlighters.
 
 * [pandoc-highlighting-extensions] adds some [pandoc]-specific conveniences
-  to `skylighting-extensions`, making it easy to customize Pandoc's display
-  of your documents.
+  to `skylighting-modding` and `skylighting-extensions`, making it easy to
+  customize Pandoc's display of your documents.
 
   [skylighting]:             https://hackage.haskell.org/package/skylighting
   [skylighting-core]:        https://hackage.haskell.org/package/skylighting-core

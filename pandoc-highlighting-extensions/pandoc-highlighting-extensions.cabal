@@ -3,11 +3,12 @@ cabal-version: 2.0
 name: pandoc-highlighting-extensions
 version: 1.0.0.0
 
-synopsis: ...
+synopsis: Syntax highlighting customization for Pandoc
 category: Text
 
 description:
-    ...
+    This package adapts the @skylighting-modding@ and
+    @skylighting-extensions@ packages for use with Pandoc.
 
 homepage:    https://github.com/typeclasses/pandoc-highlighting-ext
 bug-reports: https://github.com/typeclasses/pandoc-highlighting-ext/issues
