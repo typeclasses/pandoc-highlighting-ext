@@ -1,5 +1,5 @@
 packages:
-    pandoc-highlighting-extensions/pandoc-highlighting-extensions.cabal
-  , skylighting-extensions/skylighting-extensions.cabal
-  , skylighting-modding/skylighting-modding.cabal
+    pandoc-highlighting-extensions
+  , skylighting-extensions
+  , skylighting-modding
 
