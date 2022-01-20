@@ -37,6 +37,7 @@ library
     build-depends:
         base >=4.10 && <5
       , containers
-      , skylighting <0.12 -- skylighting 0.12 added sLists field to Syntax
+      , skylighting <0.12
+      -- skylighting 0.12 added sLists field to Syntax
       , skylighting-modding
       , text
