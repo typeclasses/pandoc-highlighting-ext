@@ -37,7 +37,9 @@ library
     build-depends:
         base >=4.11 && <5
       , containers
-      , skylighting <0.12
-      -- skylighting 0.12 added sLists field to Syntax
+      , skylighting
+      , skylighting-core >= 0.7.6 && <0.12
+      -- skylighting-core 0.7.6 exports WordSet constructor
+      -- skylighting-core 0.12 added sLists field to Syntax
       , skylighting-modding
       , text
