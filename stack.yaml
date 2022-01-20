@@ -1,6 +1,0 @@
-resolver: lts-13.5
-
-packages:
-  - pandoc-highlighting-extensions
-  - skylighting-extensions
-  - skylighting-modding
