@@ -34,7 +34,7 @@ library
         Skylighting.Modding
 
     build-depends:
-        base >=4.10 && <5
+        base >=4.11 && <5
       , containers
       , skylighting-core
       , text

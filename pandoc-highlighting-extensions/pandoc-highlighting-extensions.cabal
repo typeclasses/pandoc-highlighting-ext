@@ -35,7 +35,7 @@ library
       , Text.Pandoc.Highlighting.Extensions.WriterOptions
 
     build-depends:
-        base >=4.10 && <5
+        base >=4.11 && <5
       , data-default-class
       , pandoc
       , skylighting-core
