@@ -1,5 +1,3 @@
-{-# OPTIONS_GHC -Wall #-}
-
 {- |
 
 Functions on 'WriterOptions' that modify the syntax highlighting.
