@@ -1,3 +1,5 @@
+These packages are now **deprecated**.
+
 Packages in this repository:
 
 * [skylighting-modding] provides a set of functions for making alterations to
